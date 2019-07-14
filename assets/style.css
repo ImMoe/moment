@@ -32,7 +32,13 @@ body {
     font-weight: bold;
 }
 
+.time > h3 {
+    margin-top: 1.3rem;
+}
+
 .time > p {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     margin-top: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
 }
