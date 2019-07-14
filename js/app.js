@@ -46,7 +46,6 @@ setTimeout(() => {
         date = new Date();
         hour = date.getHours();
         minutes = date.getMinutes();
-        seconds = date.getSeconds();
     
         time.textContent = `${hour < 10 ? "0" + hour : hour}:${minutes < 10 ? "0" + minutes : minutes}`;
         
