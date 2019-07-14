@@ -43,3 +43,9 @@ body {
     font-style: italic;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 500px) {
+    .time > span {
+        font-size: 5rem;
+    }
+}
