@@ -22,8 +22,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
     color: #fff;
+    width: 90%;
+    margin: auto;
+    text-align: center;
 }
 
 .time > span {
@@ -33,13 +35,21 @@ body {
 
 .time > h3 {
     margin-top: 1.3rem;
+    text-align: center;
 }
 
-.time > p {
+p {
     font-size: 0.9rem;
     margin-top: 1.5rem;
     font-style: italic;
     text-decoration: underline;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
 }
 
 @media screen and (max-width: 500px) {

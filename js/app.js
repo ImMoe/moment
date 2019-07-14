@@ -48,11 +48,11 @@ setTimeout(() => {
         minutes = date.getMinutes();
         seconds = date.getSeconds();
     
-        time.textContent = `${hour}:${minutes}:${seconds}`;
+        time.textContent = `${hour < 10 ? "0" + hour : hour}:${minutes < 10 ? "0" + minutes : minutes}`;
         
     }, 1000);
     
     body.style.backgroundImage = "linear-gradient(to right, #ad5389c9, #3b1053c7), url("+images[Math.floor(Math.random() * 5)]+")";
     quote.textContent = quotes[Math.floor(Math.random() * 6)];
-    welcome.textContent = `Welcome, ${user}`;
+    welcome.textContent = `Welcome, ${user}!`;
 }, 1000);
