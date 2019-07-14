@@ -24,8 +24,6 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
-    width: 80%;
-    margin: auto;
 }
 
 .time > span {
